@@ -1,0 +1,1238 @@
+{
+  "routeList": [
+    {
+      "path": "/Internal-management",
+      "component": "#",
+      "redirect": "/Internal-management/personal-management",
+      "name": "internalManagement",
+      "meta": {
+        "title": "内部管理",
+        "icon": "ep:management"
+      },
+      "children": [
+        {
+          "path": "notice",
+          "component": "##",
+          "redirect": "/Internal-management/personal-management",
+          "name": "notice",
+          "meta": {
+            "title": "公告"
+          }
+        },
+        {
+          "path": "organizational-structure",
+          "component": "##",
+          "redirect": "/Internal-management/personal-management",
+          "name": "organizationalStructure",
+          "meta": {
+            "title": "组织架构"
+          }
+        },
+        {
+          "path": "adress-book",
+          "component": "##",
+          "redirect": "/Internal-management/personal-management",
+          "name": "adressBook",
+          "meta": {
+            "title": "员工通讯录"
+          }
+        },
+        {
+          "path": "personal-management",
+          "component": "##",
+          "name": "personalManagement",
+          "meta": {
+            "title": "人事管理"
+          },
+          "children": [
+            {
+              "path": "remind-set",
+              "component": "views/remindSet/remindSet",
+              "name": "remindSet",
+              "meta": {
+                "hidden": true
+              }
+            },
+            {
+              "path": "recruit",
+              "component": "views/Recruit/Recruit",
+              "name": "recruit",
+              "meta": {
+                "hidden": true
+              }
+            },
+            {
+              "path": "induction",
+              "component": "views/Induction/Induction",
+              "name": "induction",
+              "meta": {
+                "hidden": true
+              }
+            },
+            {
+              "path": "attendance",
+              "component": "views/Attendance/Attendance",
+              "name": "attendance",
+              "meta": {
+                "hidden": true
+              }
+            },
+            {
+              "path": "wages",
+              "component": "views/Wages/Wages",
+              "name": "wages",
+              "meta": {
+                "hidden": true
+              }
+            },
+            {
+              "path": "transfer-separation",
+              "component": "views/TransferAndSeparation/TransferAndSeparation",
+              "name": "transferAndSeparation",
+              "meta": {
+                "hidden": true
+              }
+            },
+            {
+              "path": "part-time-job",
+              "component": "views/PartTimeJob/PartTimeJob",
+              "name": "partTimeJob",
+              "meta": {
+                "hidden": true
+              }
+            }
+          ]
+        },
+        {
+          "path": "assets-management",
+          "component": "##",
+          "redirect": "/Internal-management/personal-management",
+          "name": "assetsManagement",
+          "meta": {
+            "title": "资产管理"
+          }
+        },
+        {
+          "path": "finance-management",
+          "component": "##",
+          "redirect": "/Internal-management/personal-management",
+          "name": "financeManagement",
+          "meta": {
+            "title": "财务管理"
+          }
+        },
+        {
+          "path": "downloads",
+          "component": "##",
+          "redirect": "/Internal-management/personal-management",
+          "name": "downloads",
+          "meta": {
+            "title": "常用下载"
+          }
+        }
+      ]
+    },
+    {
+      "path": "/sales-management",
+      "component": "#",
+      "redirect": "/Internal-management/personal-management",
+      "name": "salesManagement",
+      "meta": {
+        "title": "销售管理",
+        "icon": "ep:home-filled",
+        "alwaysShow": true
+      },
+      "children": [
+        {
+          "path": "/hidden",
+          "component": "##",
+          "meta": {
+            "hidden": true
+          }
+        }
+      ]
+    },
+    {
+      "path": "/customer-company",
+      "component": "#",
+      "redirect": "/Internal-management/personal-management",
+      "name": "customerCompany",
+      "meta": {
+        "title": "顾客及公司",
+        "icon": "ep:home-filled",
+        "alwaysShow": true
+      },
+      "children": [
+        {
+          "path": "/hidden",
+          "component": "##",
+          "meta": {
+            "hidden": true
+          }
+        }
+      ]
+    },
+    {
+      "path": "/financial-contract-management",
+      "component": "#",
+      "redirect": "/Internal-management/personal-management",
+      "name": "financialContractManagement",
+      "meta": {
+        "title": "财务合同管理",
+        "icon": "ep:home-filled",
+        "alwaysShow": true
+      },
+      "children": [
+        {
+          "path": "/hidden",
+          "component": "##",
+          "meta": {
+            "hidden": true
+          }
+        }
+      ]
+    },
+    {
+      "path": "/business-management",
+      "component": "#",
+      "redirect": "/Internal-management/personal-management",
+      "name": "businessManagement",
+      "meta": {
+        "title": "业务管理",
+        "icon": "ep:home-filled",
+        "alwaysShow": true
+      },
+      "children": [
+        {
+          "path": "/hidden",
+          "component": "##",
+          "meta": {
+            "hidden": true
+          }
+        }
+      ]
+    },
+    {
+      "path": "/propaganda-management",
+      "component": "#",
+      "redirect": "/Internal-management/personal-management",
+      "name": "propagandaManagement",
+      "meta": {
+        "title": "宣传管理",
+        "icon": "ep:home-filled",
+        "alwaysShow": true
+      },
+      "children": [
+        {
+          "path": "/hidden",
+          "component": "##",
+          "meta": {
+            "hidden": true
+          }
+        }
+      ]
+    },
+    {
+      "path": "/stock-management",
+      "component": "#",
+      "redirect": "/Internal-management/personal-management",
+      "name": "stockManagement",
+      "meta": {
+        "title": "宣传管理",
+        "icon": "ep:home-filled",
+        "alwaysShow": true
+      },
+      "children": [
+        {
+          "path": "/hidden",
+          "component": "##",
+          "meta": {
+            "hidden": true
+          }
+        }
+      ]
+    },
+    {
+      "path": "/test",
+      "component": "views/Test/Test",
+      "name": "test",
+      "meta": {
+        "title": "测试"
+      }
+    }
+  ],
+  "remind": [
+    {
+      "date": "2022-05-07",
+      "type": "入职",
+      "affair": {
+        "name": "A001-王俊凯",
+        "office": "技术部-产品经理",
+        "join": "入职日期2019/10/10",
+        "id": "1780090900",
+        "describe": "王俊凯7天后入职"
+      }
+    }
+  ],
+  "todayRemind": [],
+  "todayBirthday": [],
+  "monthBirthday": [
+    {
+      "date": "2022-05-07",
+      "type": "生日",
+      "affair": {
+        "name": "A001-王俊凯",
+        "office": "技术部-产品经理",
+        "join": "入职日期2019/10/10",
+        "id": "1780090900",
+        "describe": "王俊凯7天后入职"
+      }
+    }
+  ],
+  "customRest": [
+    "2022-05-10"
+  ],
+  "reportForm": [
+    {
+      "time": "4-29",
+      "icumbency": 74,
+      "job": 31,
+      "Induction": 33,
+      "quit": 41,
+      "partTimeJob": 46,
+      "trnoverRte": 0.57
+    },
+    {
+      "time": "2-13",
+      "icumbency": 89,
+      "job": 11,
+      "Induction": 30,
+      "quit": 39,
+      "partTimeJob": 44,
+      "trnoverRte": 0.3
+    },
+    {
+      "time": "2-26",
+      "icumbency": 82,
+      "job": 47,
+      "Induction": 42,
+      "quit": 35,
+      "partTimeJob": 31,
+      "trnoverRte": 0.44
+    },
+    {
+      "time": "12-25",
+      "icumbency": 59,
+      "job": 33,
+      "Induction": 38,
+      "quit": 49,
+      "partTimeJob": 48,
+      "trnoverRte": 0.16
+    },
+    {
+      "time": "8-17",
+      "icumbency": 78,
+      "job": 36,
+      "Induction": 35,
+      "quit": 44,
+      "partTimeJob": 41,
+      "trnoverRte": 0.09
+    },
+    {
+      "time": "3-25",
+      "icumbency": 90,
+      "job": 44,
+      "Induction": 36,
+      "quit": 35,
+      "partTimeJob": 45,
+      "trnoverRte": 0.26
+    },
+    {
+      "time": "2-9",
+      "icumbency": 80,
+      "job": 13,
+      "Induction": 33,
+      "quit": 32,
+      "partTimeJob": 45,
+      "trnoverRte": 0.63
+    },
+    {
+      "time": "5-17",
+      "icumbency": 86,
+      "job": 13,
+      "Induction": 44,
+      "quit": 39,
+      "partTimeJob": 36,
+      "trnoverRte": 0.47
+    },
+    {
+      "time": "9-29",
+      "icumbency": 75,
+      "job": 20,
+      "Induction": 32,
+      "quit": 30,
+      "partTimeJob": 34,
+      "trnoverRte": 0.37
+    },
+    {
+      "time": "6-23",
+      "icumbency": 59,
+      "job": 17,
+      "Induction": 42,
+      "quit": 47,
+      "partTimeJob": 33,
+      "trnoverRte": 0.32
+    },
+    {
+      "time": "8-23",
+      "icumbency": 78,
+      "job": 38,
+      "Induction": 35,
+      "quit": 33,
+      "partTimeJob": 46,
+      "trnoverRte": 0.88
+    },
+    {
+      "time": "8-9",
+      "icumbency": 53,
+      "job": 27,
+      "Induction": 38,
+      "quit": 50,
+      "partTimeJob": 38,
+      "trnoverRte": 0.47
+    },
+    {
+      "time": "5-11",
+      "icumbency": 91,
+      "job": 20,
+      "Induction": 47,
+      "quit": 31,
+      "partTimeJob": 37,
+      "trnoverRte": 0.78
+    },
+    {
+      "time": "8-12",
+      "icumbency": 83,
+      "job": 12,
+      "Induction": 44,
+      "quit": 49,
+      "partTimeJob": 34,
+      "trnoverRte": 0.16
+    },
+    {
+      "time": "11-11",
+      "icumbency": 76,
+      "job": 13,
+      "Induction": 31,
+      "quit": 50,
+      "partTimeJob": 41,
+      "trnoverRte": 0.29
+    },
+    {
+      "time": "11-4",
+      "icumbency": 94,
+      "job": 17,
+      "Induction": 47,
+      "quit": 32,
+      "partTimeJob": 49,
+      "trnoverRte": 0.73
+    },
+    {
+      "time": "7-15",
+      "icumbency": 87,
+      "job": 47,
+      "Induction": 48,
+      "quit": 35,
+      "partTimeJob": 45,
+      "trnoverRte": 0.19
+    },
+    {
+      "time": "7-25",
+      "icumbency": 94,
+      "job": 15,
+      "Induction": 45,
+      "quit": 36,
+      "partTimeJob": 46,
+      "trnoverRte": 0.03
+    },
+    {
+      "time": "6-19",
+      "icumbency": 64,
+      "job": 15,
+      "Induction": 30,
+      "quit": 40,
+      "partTimeJob": 33,
+      "trnoverRte": 0.41
+    },
+    {
+      "time": "11-1",
+      "icumbency": 59,
+      "job": 14,
+      "Induction": 39,
+      "quit": 32,
+      "partTimeJob": 31,
+      "trnoverRte": 0.36
+    },
+    {
+      "time": "9-17",
+      "icumbency": 51,
+      "job": 34,
+      "Induction": 41,
+      "quit": 37,
+      "partTimeJob": 34,
+      "trnoverRte": 0.61
+    },
+    {
+      "time": "5-5",
+      "icumbency": 59,
+      "job": 48,
+      "Induction": 50,
+      "quit": 32,
+      "partTimeJob": 39,
+      "trnoverRte": 0.03
+    },
+    {
+      "time": "8-24",
+      "icumbency": 63,
+      "job": 15,
+      "Induction": 35,
+      "quit": 42,
+      "partTimeJob": 37,
+      "trnoverRte": 0.25
+    },
+    {
+      "time": "4-22",
+      "icumbency": 69,
+      "job": 31,
+      "Induction": 46,
+      "quit": 32,
+      "partTimeJob": 43,
+      "trnoverRte": 0.54
+    },
+    {
+      "time": "3-1",
+      "icumbency": 71,
+      "job": 30,
+      "Induction": 44,
+      "quit": 33,
+      "partTimeJob": 45,
+      "trnoverRte": 0.55
+    },
+    {
+      "time": "8-10",
+      "icumbency": 60,
+      "job": 34,
+      "Induction": 48,
+      "quit": 48,
+      "partTimeJob": 44,
+      "trnoverRte": 0.76
+    },
+    {
+      "time": "9-10",
+      "icumbency": 58,
+      "job": 23,
+      "Induction": 47,
+      "quit": 36,
+      "partTimeJob": 47,
+      "trnoverRte": 0.36
+    },
+    {
+      "time": "10-6",
+      "icumbency": 60,
+      "job": 43,
+      "Induction": 34,
+      "quit": 46,
+      "partTimeJob": 42,
+      "trnoverRte": 0.78
+    },
+    {
+      "time": "10-4",
+      "icumbency": 76,
+      "job": 24,
+      "Induction": 40,
+      "quit": 46,
+      "partTimeJob": 35,
+      "trnoverRte": 0.43
+    },
+    {
+      "time": "10-17",
+      "icumbency": 56,
+      "job": 30,
+      "Induction": 38,
+      "quit": 43,
+      "partTimeJob": 35,
+      "trnoverRte": 0.74
+    },
+    {
+      "time": "1-7",
+      "icumbency": 94,
+      "job": 44,
+      "Induction": 34,
+      "quit": 32,
+      "partTimeJob": 35,
+      "trnoverRte": 0.6
+    },
+    {
+      "time": "2-26",
+      "icumbency": 57,
+      "job": 46,
+      "Induction": 47,
+      "quit": 47,
+      "partTimeJob": 42,
+      "trnoverRte": 0.25
+    },
+    {
+      "time": "8-17",
+      "icumbency": 86,
+      "job": 36,
+      "Induction": 34,
+      "quit": 48,
+      "partTimeJob": 50,
+      "trnoverRte": 0.36
+    },
+    {
+      "time": "7-26",
+      "icumbency": 98,
+      "job": 40,
+      "Induction": 45,
+      "quit": 30,
+      "partTimeJob": 30,
+      "trnoverRte": 0.46
+    },
+    {
+      "time": "6-21",
+      "icumbency": 93,
+      "job": 31,
+      "Induction": 33,
+      "quit": 48,
+      "partTimeJob": 43,
+      "trnoverRte": 0.41
+    },
+    {
+      "time": "11-18",
+      "icumbency": 91,
+      "job": 11,
+      "Induction": 30,
+      "quit": 46,
+      "partTimeJob": 32,
+      "trnoverRte": 0.63
+    },
+    {
+      "time": "4-5",
+      "icumbency": 100,
+      "job": 32,
+      "Induction": 33,
+      "quit": 48,
+      "partTimeJob": 31,
+      "trnoverRte": 0.84
+    },
+    {
+      "time": "1-16",
+      "icumbency": 75,
+      "job": 11,
+      "Induction": 49,
+      "quit": 34,
+      "partTimeJob": 46,
+      "trnoverRte": 0.44
+    },
+    {
+      "time": "1-9",
+      "icumbency": 58,
+      "job": 16,
+      "Induction": 44,
+      "quit": 30,
+      "partTimeJob": 30,
+      "trnoverRte": 0.94
+    },
+    {
+      "time": "2-15",
+      "icumbency": 61,
+      "job": 25,
+      "Induction": 40,
+      "quit": 42,
+      "partTimeJob": 42,
+      "trnoverRte": 0.88
+    },
+    {
+      "time": "12-30",
+      "icumbency": 85,
+      "job": 23,
+      "Induction": 33,
+      "quit": 31,
+      "partTimeJob": 37,
+      "trnoverRte": 0.63
+    },
+    {
+      "time": "11-16",
+      "icumbency": 70,
+      "job": 28,
+      "Induction": 44,
+      "quit": 30,
+      "partTimeJob": 50,
+      "trnoverRte": 0.18
+    },
+    {
+      "time": "6-9",
+      "icumbency": 81,
+      "job": 32,
+      "Induction": 32,
+      "quit": 37,
+      "partTimeJob": 37,
+      "trnoverRte": 0.7
+    },
+    {
+      "time": "11-17",
+      "icumbency": 91,
+      "job": 30,
+      "Induction": 30,
+      "quit": 32,
+      "partTimeJob": 37,
+      "trnoverRte": 0.16
+    },
+    {
+      "time": "10-27",
+      "icumbency": 64,
+      "job": 41,
+      "Induction": 32,
+      "quit": 33,
+      "partTimeJob": 35,
+      "trnoverRte": 0.58
+    },
+    {
+      "time": "2-25",
+      "icumbency": 81,
+      "job": 32,
+      "Induction": 31,
+      "quit": 50,
+      "partTimeJob": 36,
+      "trnoverRte": 0.74
+    },
+    {
+      "time": "9-2",
+      "icumbency": 90,
+      "job": 39,
+      "Induction": 41,
+      "quit": 38,
+      "partTimeJob": 41,
+      "trnoverRte": 0.24
+    },
+    {
+      "time": "8-20",
+      "icumbency": 72,
+      "job": 47,
+      "Induction": 45,
+      "quit": 34,
+      "partTimeJob": 39,
+      "trnoverRte": 0.16
+    },
+    {
+      "time": "12-10",
+      "icumbency": 53,
+      "job": 27,
+      "Induction": 31,
+      "quit": 38,
+      "partTimeJob": 45,
+      "trnoverRte": 0.84
+    },
+    {
+      "time": "9-28",
+      "icumbency": 64,
+      "job": 21,
+      "Induction": 36,
+      "quit": 37,
+      "partTimeJob": 39,
+      "trnoverRte": 0.45
+    },
+    {
+      "time": "5-12",
+      "icumbency": 100,
+      "job": 22,
+      "Induction": 39,
+      "quit": 30,
+      "partTimeJob": 43,
+      "trnoverRte": 0.87
+    },
+    {
+      "time": "2-24",
+      "icumbency": 98,
+      "job": 12,
+      "Induction": 45,
+      "quit": 49,
+      "partTimeJob": 31,
+      "trnoverRte": 0.57
+    },
+    {
+      "time": "9-28",
+      "icumbency": 51,
+      "job": 26,
+      "Induction": 39,
+      "quit": 47,
+      "partTimeJob": 33,
+      "trnoverRte": 0.79
+    },
+    {
+      "time": "7-22",
+      "icumbency": 59,
+      "job": 40,
+      "Induction": 35,
+      "quit": 35,
+      "partTimeJob": 31,
+      "trnoverRte": 0.67
+    },
+    {
+      "time": "6-17",
+      "icumbency": 98,
+      "job": 39,
+      "Induction": 46,
+      "quit": 46,
+      "partTimeJob": 36,
+      "trnoverRte": 0.13
+    },
+    {
+      "time": "5-12",
+      "icumbency": 52,
+      "job": 36,
+      "Induction": 44,
+      "quit": 47,
+      "partTimeJob": 42,
+      "trnoverRte": 0.51
+    },
+    {
+      "time": "3-9",
+      "icumbency": 66,
+      "job": 24,
+      "Induction": 44,
+      "quit": 32,
+      "partTimeJob": 48,
+      "trnoverRte": 0.22
+    },
+    {
+      "time": "10-20",
+      "icumbency": 93,
+      "job": 19,
+      "Induction": 43,
+      "quit": 38,
+      "partTimeJob": 41,
+      "trnoverRte": 0.43
+    },
+    {
+      "time": "6-9",
+      "icumbency": 78,
+      "job": 46,
+      "Induction": 33,
+      "quit": 38,
+      "partTimeJob": 34,
+      "trnoverRte": 0.87
+    },
+    {
+      "time": "5-15",
+      "icumbency": 53,
+      "job": 40,
+      "Induction": 42,
+      "quit": 41,
+      "partTimeJob": 34,
+      "trnoverRte": 0.07
+    },
+    {
+      "time": "8-9",
+      "icumbency": 92,
+      "job": 25,
+      "Induction": 41,
+      "quit": 31,
+      "partTimeJob": 42,
+      "trnoverRte": 0.27
+    },
+    {
+      "time": "1-4",
+      "icumbency": 61,
+      "job": 31,
+      "Induction": 43,
+      "quit": 32,
+      "partTimeJob": 41,
+      "trnoverRte": 0.26
+    },
+    {
+      "time": "7-22",
+      "icumbency": 54,
+      "job": 46,
+      "Induction": 45,
+      "quit": 44,
+      "partTimeJob": 38,
+      "trnoverRte": 0.57
+    },
+    {
+      "time": "3-17",
+      "icumbency": 85,
+      "job": 37,
+      "Induction": 37,
+      "quit": 36,
+      "partTimeJob": 46,
+      "trnoverRte": 0.01
+    },
+    {
+      "time": "5-23",
+      "icumbency": 85,
+      "job": 33,
+      "Induction": 30,
+      "quit": 44,
+      "partTimeJob": 49,
+      "trnoverRte": 0.66
+    },
+    {
+      "time": "10-26",
+      "icumbency": 60,
+      "job": 43,
+      "Induction": 33,
+      "quit": 35,
+      "partTimeJob": 38,
+      "trnoverRte": 0.56
+    },
+    {
+      "time": "4-14",
+      "icumbency": 67,
+      "job": 45,
+      "Induction": 39,
+      "quit": 44,
+      "partTimeJob": 47,
+      "trnoverRte": 0.18
+    },
+    {
+      "time": "3-13",
+      "icumbency": 67,
+      "job": 30,
+      "Induction": 46,
+      "quit": 38,
+      "partTimeJob": 48,
+      "trnoverRte": 0.74
+    },
+    {
+      "time": "4-20",
+      "icumbency": 90,
+      "job": 34,
+      "Induction": 32,
+      "quit": 43,
+      "partTimeJob": 41,
+      "trnoverRte": 0.65
+    },
+    {
+      "time": "8-29",
+      "icumbency": 82,
+      "job": 10,
+      "Induction": 40,
+      "quit": 41,
+      "partTimeJob": 31,
+      "trnoverRte": 0.16
+    },
+    {
+      "time": "9-15",
+      "icumbency": 62,
+      "job": 31,
+      "Induction": 30,
+      "quit": 36,
+      "partTimeJob": 38,
+      "trnoverRte": 0.49
+    },
+    {
+      "time": "11-4",
+      "icumbency": 100,
+      "job": 39,
+      "Induction": 49,
+      "quit": 42,
+      "partTimeJob": 47,
+      "trnoverRte": 0.27
+    },
+    {
+      "time": "9-4",
+      "icumbency": 99,
+      "job": 44,
+      "Induction": 42,
+      "quit": 42,
+      "partTimeJob": 37,
+      "trnoverRte": 0.64
+    },
+    {
+      "time": "3-19",
+      "icumbency": 93,
+      "job": 39,
+      "Induction": 42,
+      "quit": 31,
+      "partTimeJob": 36,
+      "trnoverRte": 0.04
+    },
+    {
+      "time": "11-3",
+      "icumbency": 57,
+      "job": 37,
+      "Induction": 30,
+      "quit": 35,
+      "partTimeJob": 44,
+      "trnoverRte": 0.15
+    },
+    {
+      "time": "11-15",
+      "icumbency": 99,
+      "job": 47,
+      "Induction": 43,
+      "quit": 46,
+      "partTimeJob": 45,
+      "trnoverRte": 0.98
+    },
+    {
+      "time": "4-24",
+      "icumbency": 52,
+      "job": 29,
+      "Induction": 31,
+      "quit": 42,
+      "partTimeJob": 34,
+      "trnoverRte": 0.88
+    },
+    {
+      "time": "4-4",
+      "icumbency": 79,
+      "job": 35,
+      "Induction": 48,
+      "quit": 46,
+      "partTimeJob": 35,
+      "trnoverRte": 0.41
+    },
+    {
+      "time": "1-21",
+      "icumbency": 72,
+      "job": 37,
+      "Induction": 48,
+      "quit": 47,
+      "partTimeJob": 39,
+      "trnoverRte": 0.17
+    },
+    {
+      "time": "7-25",
+      "icumbency": 60,
+      "job": 26,
+      "Induction": 41,
+      "quit": 30,
+      "partTimeJob": 47,
+      "trnoverRte": 0.23
+    },
+    {
+      "time": "3-4",
+      "icumbency": 83,
+      "job": 30,
+      "Induction": 37,
+      "quit": 47,
+      "partTimeJob": 47,
+      "trnoverRte": 0.66
+    }
+  ],
+  "remindSet": [
+    {
+      "title": "待面试",
+      "remind": 1,
+      "day": 7,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "待入职",
+      "remind": 1,
+      "day": 7
+    },
+    {
+      "id": 3,
+      "title": "待转正",
+      "remind": 0,
+      "day": "17"
+    },
+    {
+      "id": 4,
+      "title": "待离职",
+      "remind": 2,
+      "day": 7
+    },
+    {
+      "id": 5,
+      "title": "劳务合同到期",
+      "remind": 0,
+      "day": "75"
+    },
+    {
+      "id": 6,
+      "title": "团建活动",
+      "remind": 0,
+      "day": 7
+    }
+  ],
+  "induction": [
+    {
+      "id": 1,
+      "name": "王俊凯",
+      "department": "研发部",
+      "post": "产品经理",
+      "phone": "18700001111",
+      "join": "2022-5-10"
+    },
+    {
+      "id": 2,
+      "name": "王源",
+      "department": "研发部",
+      "post": "技术总监",
+      "phone": "18711110000",
+      "join": "2022-5-22"
+    }
+  ],
+  "no-induction": [
+    {
+      "id": 1,
+      "name": "易烊千玺",
+      "department": "研发部",
+      "post": "前端",
+      "phone": "18711111111",
+      "join": "2022-5-10",
+      "reason": "个人原因，决定不入职"
+    },
+    {
+      "name": "范德萨发",
+      "department": "范德萨",
+      "post": "范德萨",
+      "phone": "范德萨",
+      "join": "2022-5-4",
+      "id": 6,
+      "reason": "抗美援朝"
+    },
+    {
+      "name": "范德萨发",
+      "department": "范德萨发",
+      "post": "范德萨",
+      "phone": "范德萨",
+      "join": "2022-5-11",
+      "id": 5,
+      "reason": "疫情严重"
+    },
+    {
+      "name": "大聪明",
+      "department": "宣传部",
+      "post": "创意总监",
+      "phone": "18011112222",
+      "join": "2022-5-17",
+      "id": 3,
+      "reason": "个人原因，太聪明"
+    }
+  ],
+  "recruit": [
+    {
+      "id": 1,
+      "job": "产品经理",
+      "experience": "3-5年",
+      "education": "本科",
+      "salary": "10-15K",
+      "area": "北京 朝阳区",
+      "number": 10,
+      "who": "张杰",
+      "time": "2019-12-15",
+      "department": "研发部",
+      "jobDescribe": [
+        "负责医院处方外流to C相关产品的业务调研、产品规划；",
+        "负责产品文档编写、原型设计、推动需求落地，保障产品实现小周期快速高质量迭代；",
+        "跟进市场反馈、拥抱政策变化，不断优化产品。"
+      ],
+      "requirements": [
+        "计算机或医药相关专业，大专及以上学历；",
+        "具备3年以上互联网C端产品经验，经历过完整产品生命周期，有在线问诊相关产品经验优先；",
+        "善于学习总结、有钻研精神及自我驱动能力；",
+        "对后端业务架构、功能模块有清晰的认知，能够输出逻辑完整的业务流程图；",
+        "需求表达清晰，具备良好的沟通协调能力，熟练使用axure、visio、脑图等工具。"
+      ]
+    },
+    {
+      "id": 2,
+      "job": "产品经理",
+      "experience": "3-5年",
+      "education": "本科",
+      "salary": "10-15K",
+      "area": "北京 朝阳区",
+      "number": 10,
+      "who": "张杰",
+      "time": "2019-12-15",
+      "department": "研发部",
+      "jobDescribe": [
+        "负责医院处方外流to C相关产品的业务调研、产品规划；",
+        "负责产品文档编写、原型设计、推动需求落地，保障产品实现小周期快速高质量迭代；",
+        "跟进市场反馈、拥抱政策变化，不断优化产品。"
+      ],
+      "requirements": [
+        "计算机或医药相关专业，大专及以上学历；",
+        "具备3年以上互联网C端产品经验，经历过完整产品生命周期，有在线问诊相关产品经验优先；",
+        "善于学习总结、有钻研精神及自我驱动能力；",
+        "对后端业务架构、功能模块有清晰的认知，能够输出逻辑完整的业务流程图；",
+        "需求表达清晰，具备良好的沟通协调能力，熟练使用axure、visio、脑图等工具。"
+      ]
+    },
+    {
+      "id": 3,
+      "job": "产品经理",
+      "experience": "3-5年",
+      "education": "本科",
+      "salary": "10-15K",
+      "area": "北京 朝阳区",
+      "number": 10,
+      "who": "张杰",
+      "time": "2019-12-15",
+      "department": "研发部",
+      "jobDescribe": [
+        "负责医院处方外流to C相关产品的业务调研、产品规划；",
+        "负责产品文档编写、原型设计、推动需求落地，保障产品实现小周期快速高质量迭代；",
+        "跟进市场反馈、拥抱政策变化，不断优化产品。"
+      ],
+      "requirements": [
+        "计算机或医药相关专业，大专及以上学历；",
+        "具备3年以上互联网C端产品经验，经历过完整产品生命周期，有在线问诊相关产品经验优先；",
+        "善于学习总结、有钻研精神及自我驱动能力；",
+        "对后端业务架构、功能模块有清晰的认知，能够输出逻辑完整的业务流程图；",
+        "需求表达清晰，具备良好的沟通协调能力，熟练使用axure、visio、脑图等工具。"
+      ]
+    },
+    {
+      "id": 4,
+      "job": "产品经理",
+      "experience": "3-5年",
+      "education": "本科",
+      "salary": "10-15K",
+      "area": "北京 朝阳区",
+      "number": 10,
+      "who": "张杰",
+      "time": "2019-12-15",
+      "department": "研发部",
+      "jobDescribe": [
+        "负责医院处方外流to C相关产品的业务调研、产品规划；",
+        "负责产品文档编写、原型设计、推动需求落地，保障产品实现小周期快速高质量迭代；",
+        "跟进市场反馈、拥抱政策变化，不断优化产品。"
+      ],
+      "requirements": [
+        "计算机或医药相关专业，大专及以上学历；",
+        "具备3年以上互联网C端产品经验，经历过完整产品生命周期，有在线问诊相关产品经验优先；",
+        "善于学习总结、有钻研精神及自我驱动能力；",
+        "对后端业务架构、功能模块有清晰的认知，能够输出逻辑完整的业务流程图；",
+        "需求表达清晰，具备良好的沟通协调能力，熟练使用axure、visio、脑图等工具。"
+      ]
+    },
+    {
+      "job": "产品经理",
+      "experience": "3-5年",
+      "education": "本科及以上",
+      "salary": "15K-20K",
+      "area": "无锡 滨湖",
+      "number": "10",
+      "who": "大聪明",
+      "department": "研发部",
+      "jobDescribe": [
+        "睡觉"
+      ],
+      "requirements": [
+        "吃饭",
+        "睡觉",
+        "打豆豆"
+      ],
+      "time": "2022/5/4",
+      "id": 6
+    }
+  ]
+}
