@@ -1,0 +1,10 @@
+.container{
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-image{
+  height: 112vh;
+  width: 100vw;
+  position: absolute;
+}

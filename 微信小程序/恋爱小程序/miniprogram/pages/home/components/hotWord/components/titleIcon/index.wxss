@@ -1,0 +1,9 @@
+.container{
+  width: 6vw;
+  height: 3vh;
+  border-radius: 50%;
+}
+.bg-img{
+  left: -4vw;
+  top: -69vh;
+}

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "navigation-bar":"/components/navigationBar",
+    "side":"/components/side",
+    "banner":"./components/classroomBanner",
+    "stage-icon":"./components/stageIcon",
+    "t-icon": "tdesign-miniprogram/icon/icon",
+    "hot-course-icon":"./components/hotCourseIcon"
+  }
+}

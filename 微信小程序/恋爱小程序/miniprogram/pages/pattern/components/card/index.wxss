@@ -1,0 +1,14 @@
+.card{
+  padding: 20rpx;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.title{
+  border-left: 3px solid #000;
+  padding-left:15rpx ;
+  font-weight: bold;
+}
+.card-items{
+  margin-top: 15px;
+}

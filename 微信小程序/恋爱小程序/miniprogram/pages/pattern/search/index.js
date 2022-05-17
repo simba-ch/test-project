@@ -1,0 +1,89 @@
+
+Page({
+  data: {
+    historyWords: ['海王历险记','舔狗追爱记','鱼塘扩建指南'],
+    popularWords: [],
+    searchValue: '',
+    dialog: {
+      title: '确认删除当前历史记录',
+      showCancelButton: true,
+      message: '',
+    },
+    dialogShow: false,
+  },
+
+  onShow() {
+    const _this = this
+    const db = wx.cloud.database()
+    db.collection('hotWordList').get({
+      success: function (res) {
+        const hots = res.data.filter(word => word.isHot);
+        _this.setData({
+          popularWords: hots
+        })
+      }
+    })
+  },
+  confirm() {
+    const { historyWords } = this.data;
+    const { deleteType, deleteIndex } = this;
+    historyWords.splice(deleteIndex, 1);
+    if (deleteType === 0) {
+      this.setData({
+        historyWords,
+        dialogShow: false,
+      });
+    } else {
+      this.setData({ historyWords: [], dialogShow: false });
+    }
+  },
+
+  close() {
+    this.setData({ dialogShow: false });
+  },
+
+  handleClearHistory() {
+    const { dialog } = this.data;
+    this.deleteType = 1;
+    this.setData({
+      dialog: {
+        ...dialog,
+        message: '确认删除所有历史记录',
+      },
+      dialogShow: true,
+    });
+  },
+
+  deleteCurr(e) {
+    const { index } = e.currentTarget.dataset;
+    const { dialog } = this.data;
+    this.deleteIndex = index;
+    this.setData({
+      dialog: {
+        ...dialog,
+        message: '确认删除当前历史记录',
+        deleteType: 0,
+      },
+      dialogShow: true,
+    });
+  },
+
+  handleHistoryTap(e) {
+    const { historyWords } = this.data;
+    const { dataset } = e.currentTarget;
+    const _searchValue = historyWords[dataset.index || 0] || '';
+    if (_searchValue) {
+      wx.navigateTo({
+        url: `/pages/goods/result/index?searchValue=${_searchValue}`,
+      });
+    }
+  },
+
+  handleSubmit(e) {
+    const { value } = e.detail.value;
+    if (value.length === 0) return;
+    wx.navigateTo({
+      url: `/pages/goods/result/index?searchValue=${value}`,
+    });
+  },
+});

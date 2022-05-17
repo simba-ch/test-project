@@ -1,0 +1,6 @@
+<view class="side-wrapper">
+<side-content collapse="{{collapse}}" init="{{init}}"></side-content>
+<view 
+class="collapse-btn"
+bindtap="collapseHandler">{{collapseText}}</view>
+</view>

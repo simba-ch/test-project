@@ -1,0 +1,4 @@
+<view class="hot-word-item">
+  <view>{{item.text}}</view>
+  <hot-icon wx:if="{{item.isHot}}" class="hot-icon"></hot-icon>
+</view>

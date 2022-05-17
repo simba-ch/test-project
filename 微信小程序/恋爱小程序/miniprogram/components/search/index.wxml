@@ -1,0 +1,7 @@
+<view class="search-wrapper" bindtap="goSearch">
+<view class="text">输入妹子的话，搜索看吧...</view>
+<view class="btn">
+  <t-icon name="search" size="xl" color="#876a32"/>
+搜索
+</view>
+</view>

@@ -1,0 +1,10 @@
+.container {
+  width: 100vw;
+  height: 21vh;
+  border-radius: 3%;
+}
+
+.bg-image {
+  left: 0;
+  bottom: -72vh;
+}

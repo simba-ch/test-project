@@ -1,0 +1,29 @@
+.icon {
+  width: 8vw;
+  height: 4vh;
+}
+
+.icon-home {
+  left: -6vw;
+  bottom: -5vh;
+}
+
+.icon-pattern {
+  left: -26vw;
+  bottom: -5vh;
+}
+
+.icon-task {
+  left: -46vw;
+  bottom: -5vh;
+}
+
+.icon-classroom {
+  left: -66vw;
+  bottom: -5vh;
+}
+
+.icon-usercenter {
+  left: -86vw;
+  bottom: -5vh;
+}

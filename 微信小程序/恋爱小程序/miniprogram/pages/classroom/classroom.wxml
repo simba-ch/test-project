@@ -1,0 +1,36 @@
+<navigation-bar title="课堂中心" bg-color="bg-color"></navigation-bar>
+<view class="page-content">
+  <view class="banner">
+    <banner></banner>
+  </view>
+  <view class="classroom-content">
+    <view class="title">
+      **恋爱术内100w恋爱聊天话术，实战课堂每日更新， 今日新增：<text class="count">91</text>条
+    </view>
+    <view class="stages">
+      <view wx:for="{{stages}}" wx:for-item="stage" class="stages-row">
+        <view class="stage" wx:for="{{stage}}" wx:key="type">
+          <stage-icon type="{{item.type}}"></stage-icon>
+          <view>{{item.text}}</view>
+        </view>
+      </view>
+    </view>
+    <view class="hot-course">
+      <view class="hot-course-header">
+        <view class="header-left">
+          <hot-course-icon></hot-course-icon>
+          <view class="hot-course-title"> 热门课程</view>
+        </view>
+        <view class="more" bindtap="goCourse">更多
+          <t-icon name="chevron-right" size="xl" />
+        </view>
+      </view>
+      <view class="hot-course-body">
+        <view class="hot-course-item" wx:for="{{hotCourses}}">
+          <view class="hot-course-text">{{item}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<side side-wrapper="side-wrapper"></side>

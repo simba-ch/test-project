@@ -1,0 +1,9 @@
+.container {
+  width: 6vw;
+  height: 4vh;
+}
+
+.bg-img {
+  left: -4vw;
+  top: -72vh;
+}

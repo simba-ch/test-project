@@ -1,0 +1,31 @@
+page{
+  background-image: linear-gradient(to bottom,var(--primary) 12%,#fc7aa0 15%,var(--second) 20%);
+  padding-bottom: 48px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg-color{
+  background-color:var(--primary);
+}
+.banner{
+  margin-bottom: 15rpx;
+}
+.pattern-content{
+  margin-top: 40rpx;
+}
+.title{
+  font-size: 20rpx;
+  color: #6f7372;
+  text-indent: 40rpx;
+}
+.count{
+  font-size: 40rpx;
+  vertical-align: middle;
+  color: #7a5f2a;
+}
+.side-wrapper{
+  position: fixed;
+  right: 2%;
+  bottom: 25%;
+  z-index: 99999;
+}

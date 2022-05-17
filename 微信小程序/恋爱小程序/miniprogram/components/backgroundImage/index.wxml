@@ -1,0 +1,4 @@
+<view class="container container-class">
+<image src="{{imageList[index]}}" class="bg-image background-image-class">
+</image>
+</view>

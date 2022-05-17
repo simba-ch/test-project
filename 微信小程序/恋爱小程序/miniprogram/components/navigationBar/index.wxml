@@ -1,0 +1,13 @@
+<view class="navigation-container bg-color" style="{{'height: ' + navigationBarAndStatusBarHeight}}">
+  <!--空白来占位状态栏-->
+  <view style="{{'height: ' + statusBarHeight}}"></view>
+  <!--自定义导航栏-->
+  <view class="navigation-bar" style="{{'height:' + navigationBarHeight}}">
+    <t-icon name="chevron-left" size="xl" bind:click="back" color="#fff" class="navigation-buttons" wx:if="{{show}}" />
+    <view class="navigation-title" style="{{'line-height:' + navigationBarHeight}}">{{title}}</view>
+    <slot></slot>
+  </view>
+
+</view>
+<!--空白占位fixed空出的位置-->
+<view style="{{'height: ' + navigationBarAndStatusBarHeight}}"></view>

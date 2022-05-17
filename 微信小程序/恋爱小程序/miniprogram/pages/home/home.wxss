@@ -1,0 +1,29 @@
+page{
+  background-image: linear-gradient(to bottom,var(--primary) 25%,#fc7aa0 30%,var(--second) 35%);
+  padding-bottom: 48px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg-color{
+  background-color:var(--primary);
+}
+.home-content{
+  margin-top: 40rpx;
+}
+.swiper{
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.other-item{
+  margin: 10px 0;
+}
+.notice{
+  margin: 20px 0;
+}
+.side-wrapper{
+  position: fixed;
+  right: 2%;
+  bottom: 25%;
+  z-index: 99999;
+}

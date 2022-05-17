@@ -1,0 +1,11 @@
+.container {
+  width: 8vw;
+  height: 4vh;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+.bg-img {
+  left: -4vw;
+  top: -7vh;
+}

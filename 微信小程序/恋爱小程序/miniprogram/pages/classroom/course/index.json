@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "navigation-bar": "/components/navigationBar",
+    "side": "/components/side",
+    "scroll-bar": "./components/scrollBar",
+    "course-swiper":"./components/courseSwiper",
+    "course-item-image":"./components/courseItemImage"
+  }
+}

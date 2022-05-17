@@ -1,0 +1,23 @@
+<navigation-bar title="奖励中心" bg-color="bg-color"></navigation-bar>
+<view class="page-content">
+  <view class="banner">
+    <home-swiper-item></home-swiper-item>
+  </view>
+  <view class="state-row">
+    <view class="state-text">当前会员状态：</view>
+    <view class="state">已过期</view>
+  </view>
+  <view class="my">
+    <view class="user-name">
+    <open-data type="userNickName"></open-data>
+    </view>
+    <view class="avatar">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+  </view>
+  <view class="task-content">
+    <view class="task-title">今日任务</view>
+    <task-item item="{{item}}" wx:for="{{taskList}}" wx:key="title"></task-item>
+  </view>
+</view>
+<side side-wrapper="side-wrapper"></side>

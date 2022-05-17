@@ -1,0 +1,1 @@
+"D:\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-5gx9dmrx128b99b2 --n quickstartFunctions --r --project "E:\微信小程序\恋爱小程序" --report_first --report

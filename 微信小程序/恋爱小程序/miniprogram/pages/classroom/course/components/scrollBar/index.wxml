@@ -1,0 +1,5 @@
+<scroll-view class="scroll-view_H" scroll-x="true" scroll-with-animation scroll-left="{{left}}">
+  <view class="scroll-view-item_H {{active === index ? 'active' : '' }}" wx:for="{{list}}" wx:key="*this" bindtap="changeCourse" data-index="{{index}}">
+    {{item}}
+  </view>
+</scroll-view>

@@ -1,0 +1,10 @@
+page{
+  --primary:#ff7b86;
+  --second:#fed9e0;
+  --search-btn:#fadc96;
+  --search-text:#b5b5b5;
+  --side:#fc7d86;
+}
+.page-content{
+  padding: 0 40rpx;
+}

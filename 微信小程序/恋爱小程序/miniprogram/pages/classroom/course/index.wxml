@@ -1,0 +1,12 @@
+<navigation-bar title="课程列表" bg-color="bg-color" show="{{true}}"></navigation-bar>
+<scroll-bar list="{{courses}}"></scroll-bar>
+<course-swiper></course-swiper>
+<view class="course" wx:for="{{article}}" >
+  <view>
+  <view class="title">{{item.title}}</view>
+  <view class="time">{{item.time}}</view>
+  </view>
+  <course-item-image></course-item-image>
+</view>
+
+<side side-wrapper="side-wrapper"></side>

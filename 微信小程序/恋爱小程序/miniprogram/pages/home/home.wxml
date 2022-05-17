@@ -1,0 +1,19 @@
+<navigation-bar title="表情丫丫" bg-color="bg-color"></navigation-bar>
+<guide></guide>
+<view class="page-content home-content">
+  <search></search>
+  <view class="swiper">
+    <home-swiper></home-swiper>
+  </view>
+  <view class="other-item">
+    <other-item></other-item>
+  </view>
+  <view class="notice">
+  <notice></notice>
+  </view>
+  <view>
+      <hot-word list="{{hotWordList}}"></hot-word> 
+      <hot-word list="{{hotWordList}}"></hot-word>
+  </view> 
+</view>
+<side side-wrapper="side-wrapper"></side>

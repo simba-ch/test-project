@@ -1,0 +1,10 @@
+.hot-word-item{
+  display: inline-flex;
+  background-color: #f7f7f7;
+  border-radius: 40px;
+  padding: 10rpx 20rpx;
+  align-items: center;
+}
+.hot-icon{
+  margin: 0 10rpx 0 20rpx;
+}

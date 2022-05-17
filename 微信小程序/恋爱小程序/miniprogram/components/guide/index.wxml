@@ -1,0 +1,15 @@
+<view class="wrapper" style="top:{{navigationBarAndStatusBarHeight}};">
+<view class="content-wrapper">
+  <view class="content">
+    点击
+    <view class="dot-wrapper">
+    <view class="dot"></view>
+    <view class="dot center-dot"></view>
+    <view class="dot"></view>
+  </view>
+    添加到我的小程序，下次使用更方便
+  </view>
+</view>
+</view>
+<!-- 空白站位 -->
+<view style="height: 31px;"></view>

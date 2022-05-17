@@ -1,0 +1,29 @@
+.container{
+  width: 14vw;
+  height: 8vh;
+}
+
+.advanced{
+  left: -10vw;
+  top: -42vh;
+}
+.single{
+  left: -42vw;
+  top: -42vh;
+}
+.pursuit{
+  left: -73vw;
+  top: -42vh;
+}
+.love{
+  left: -10vw;
+  top: -55vh;
+}
+.lovelorn{
+  left: -42vw;
+  top: -55vh;
+}
+.marriaged{
+  left: -73vw;
+  top: -55vh;
+}

@@ -1,0 +1,16 @@
+<!--pages/home/components/hot-word/index.wxml-->
+<view class="hot-word-wrapper">
+  <view class="header">
+    <view class="title">
+      <title-icon class="title-icon"></title-icon>
+      <view class="text">热门话术</view>
+    </view>
+    <view bindtap="goPattern" class="more">
+    更多
+    <t-icon name="chevron-right" size="xl"/>
+    </view>
+  </view>
+  <view class="content">
+    <hot-word-item class="item" wx:for="{{list}}" item="{{ item }}" wx:key="id"></hot-word-item>
+  </view>
+</view>

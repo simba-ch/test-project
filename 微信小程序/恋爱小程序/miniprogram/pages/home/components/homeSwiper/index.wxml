@@ -1,0 +1,6 @@
+<t-swiper current="{{current}}" autoplay="{{true}}" duration="{{500}}" interval="{{2000}}" navigation="dots">
+  <t-swiper-item wx:for="{{3}}" wx:key="index">
+    <home-swiper-item></home-swiper-item>
+  </t-swiper-item>
+  <t-swiper-nav slot="nav" type="dots-bar" />
+</t-swiper>

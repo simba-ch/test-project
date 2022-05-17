@@ -1,0 +1,21 @@
+<t-tab-bar
+ value="{{active}}"
+ bindchange="onChange"
+ split="{{false}}"
+ color="{{['#ff7b86', '#b5b5b5' ]}}"
+ class="tab-bar"
+ bordered="{{false}}"
+>
+	<t-tab-bar-item
+	 wx:for="{{list}}"
+	 wx:for-item="item"
+	 wx:for-index="index"
+	 wx:key="index"
+   value="{{index}}"
+	>
+		<view class="custom-tab-bar-wrapper">
+      <tab-bar-icon type="{{item.icon}}"></tab-bar-icon>
+			<view class="text">{{ item.text }}</view>
+		</view>
+	</t-tab-bar-item>
+</t-tab-bar>

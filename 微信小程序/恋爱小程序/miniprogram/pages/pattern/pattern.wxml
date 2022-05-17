@@ -1,0 +1,16 @@
+<navigation-bar title="话术中心" bg-color="bg-color"></navigation-bar>
+<view class="page-content">
+  <view class="banner">
+    <home-swiper-item></home-swiper-item>
+  </view>
+  <search></search>
+  <view class="pattern-content">
+    <view class="title">
+      一款优秀的话术搜索代聊软件 聊天话术每日更新 今日新增：<text class="count">91</text>条
+    </view>
+    <view>
+      <card wx:for="{{cardList}}" card="{{item}}" class="card" wx:key="_id"></card>
+    </view>
+  </view>
+</view>
+<side side-wrapper="side-wrapper"></side>

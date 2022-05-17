@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "navigation-bar":"/components/navigationBar",
+    "home-swiper-item":"/pages/home/components/homeSwiper/homeSwiperItem",
+    "side":"/components/side",
+    "task-item":"./components/taskItem"
+  }
+}

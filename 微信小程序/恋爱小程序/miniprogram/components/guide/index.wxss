@@ -1,0 +1,48 @@
+.wrapper {
+  position: fixed;
+  background-color: #faf5d5;
+  z-index: 100000;
+}
+
+.content-wrapper {
+  width: 100vw;
+  color: #835730;
+  position: relative;
+}
+
+.content-wrapper::after {
+  content: "";
+  display: block;
+  border: 10rpx solid #faf5d5;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  position: absolute;
+  top: -20rpx;
+  right: 134rpx;
+}
+
+.content {
+  padding: 10rpx 40rpx;
+  display: flex;
+  align-items: center;
+}
+
+.dot-wrapper {
+  padding: 0 15rpx;
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  width: 10rpx;
+  height: 10rpx;
+  border-radius: 50%;
+  background-color: #835730;
+}
+
+.center-dot {
+  width: 15rpx;
+  height: 15rpx;
+  margin: 0 5rpx;
+}

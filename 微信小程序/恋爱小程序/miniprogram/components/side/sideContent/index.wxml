@@ -1,0 +1,2 @@
+<background-image container-class="container {{collapse ? 'collapse' : ''}} {{show ? 'show' :'no-show'}}" background-image-class="bg-image">
+</background-image>

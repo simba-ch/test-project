@@ -1,0 +1,20 @@
+.container {
+  width: 8vw;
+  height: 22vh;
+  border-radius: 16px;
+}
+
+.bg-image {
+  right: -7px;
+  bottom: -37vh;
+}
+
+.show {
+  transition: height .5s ease-in .2s;
+}
+.no-show{
+  transition: height 0 ease-in 0;
+}
+.collapse{
+  height: 0;
+}

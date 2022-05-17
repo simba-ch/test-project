@@ -1,0 +1,111 @@
+page {
+  background-image: linear-gradient(to bottom, var(--primary) 12%, #fc7aa0 15%, var(--second) 20%);
+  padding-bottom: 48px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.page-content {
+  padding: 0 15rpx;
+}
+
+.bg-color {
+  background-color: var(--primary);
+}
+
+.banner {
+  margin-bottom: 15rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.classroom-content {
+  margin-top: 40rpx;
+}
+
+.title {
+  font-size: 20rpx;
+  color: #6f7372;
+  text-indent: 40rpx;
+}
+
+.count {
+  font-size: 40rpx;
+  vertical-align: middle;
+  color: #7a5f2a;
+}
+
+.stages {
+  background-color: #fff;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.stages-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stage {
+  margin: 10px;
+}
+
+.hot-course-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.hot-course-title {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.hot-course {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.more {
+  display: flex;
+  align-items: center;
+  color: #6f7372;
+}
+
+.hot-course-body {
+  margin-top: 20px;
+}
+
+.hot-course-item {
+  margin: 20px 0;
+  padding: 10px 10px 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .6), 0 5px 0 0 rgba(255, 116, 139, .6);
+}
+
+.hot-course-text {
+  display: inline-block;
+  border-bottom: 3px solid rgb(255, 116, 139);
+  font-weight: bold;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.side-wrapper {
+  position: fixed;
+  right: 2%;
+  bottom: 25%;
+  z-index: 99999;
+}

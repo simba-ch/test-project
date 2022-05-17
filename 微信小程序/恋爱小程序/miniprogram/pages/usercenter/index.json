@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "navigation-bar": "/components/navigationBar",
+    "navigation-icon": "./components/navigationIcon",
+    "service-icon": "./components/serviceIcon",
+    "t-icon": "tdesign-miniprogram/icon/icon",
+    "background-image": "/components/backgroundImage"
+  }
+}

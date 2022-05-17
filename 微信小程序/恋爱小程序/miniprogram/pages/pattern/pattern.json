@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "navigation-bar":"/components/navigationBar",
+    "search":"/components/search",
+    "home-swiper-item":"/pages/home/components/homeSwiper/homeSwiperItem",
+    "card":"./components/card",
+    "side":"/components/side"
+  }
+}

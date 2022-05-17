@@ -1,0 +1,27 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  margin: 15px 20px;
+}
+
+.title {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 10px;
+  color: #7d7d7d;
+}
+
+.complete-btn {
+  color: #d26b6e;
+  margin: 0 10px;
+  border: 1px solid #d26b6e;
+  border-radius: 20px;
+  padding: 5px 10px;
+}

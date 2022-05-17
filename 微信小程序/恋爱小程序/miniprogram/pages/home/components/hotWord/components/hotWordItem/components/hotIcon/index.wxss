@@ -1,0 +1,10 @@
+.container{
+  width: 4vw;
+  height: 2vh;
+  border-radius: 50%;
+  transform: scale(1.5);
+}
+.bg-img{
+  left: -22vw;
+  top: -79vh;
+}

@@ -1,0 +1,4 @@
+<background-image
+container-class="icon" 
+index="{{type === 'home' ? 2 : 0}}"
+background-image-class="icon-{{type}}"></background-image>

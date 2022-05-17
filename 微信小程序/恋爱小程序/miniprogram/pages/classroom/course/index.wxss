@@ -1,0 +1,31 @@
+page{
+  padding-bottom: 48px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: var(--second);
+  padding-bottom: 0;
+}
+.bg-color{
+  background-color:var(--primary);
+}
+.course{
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.title{
+  font-weight: bold;
+}
+.time{
+  color: #747474;
+  font-size: 13px;
+}
+.side-wrapper{
+  position: fixed;
+  right: 2%;
+  bottom: 25%;
+  z-index: 99999;
+}

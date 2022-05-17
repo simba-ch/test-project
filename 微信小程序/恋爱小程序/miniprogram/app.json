@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/pattern/pattern",
+    "pages/pattern/search/index",
+    "pages/task/task",
+    "pages/classroom/classroom",
+    "pages/usercenter/index",
+    "pages/classroom/course/index"
+  ],
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/pattern/pattern",
+        "text": "话术"
+      },
+      {
+        "pagePath": "pages/task/task",
+        "text": "任务"
+      },
+      {
+        "pagePath": "pages/classroom/classroom",
+        "text": "课堂"
+      },
+      {
+        "pagePath": "pages/usercenter/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "window": {
+    "navigationBarBackgroundColor": "#ff7b86",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "表情丫丫",
+    "navigationStyle": "custom"
+  },
+  "sitemapLocation": "sitemap.json"
+}

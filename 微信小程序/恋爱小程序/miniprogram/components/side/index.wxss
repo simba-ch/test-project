@@ -1,0 +1,11 @@
+.collapse-btn{
+  width: 8vw;
+  height: 8vw;
+  background-color: var(--side);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 26rpx;
+  text-align: center;
+  line-height: 8vw;
+  margin-top: 20rpx;
+}

@@ -1,0 +1,24 @@
+.container {
+  width: 8vw;
+  height: 4vh;
+}
+
+.customer {
+  left: -4vw;
+  top: -36vh;
+}
+
+.number {
+  left: -4vw;
+  top: -43vh;
+}
+
+.more {
+  left: -4vw;
+  top: -50vh;
+}
+
+.update {
+  left: -4vw;
+  top: -58vh;
+}

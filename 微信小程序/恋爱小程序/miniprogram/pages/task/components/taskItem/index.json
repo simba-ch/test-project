@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "task-icon":"./components/taskIcon"
+  }
+}

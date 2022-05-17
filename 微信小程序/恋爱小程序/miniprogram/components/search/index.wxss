@@ -1,0 +1,20 @@
+.search-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #fff;
+ overflow: hidden;
+}
+.text{
+  padding:0 10px;
+  color: var(--search-text);
+  padding: 10px 0 10px 20px;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  align-self: start;
+  padding: 10px 20px;
+  background-color: var(--search-btn);
+}

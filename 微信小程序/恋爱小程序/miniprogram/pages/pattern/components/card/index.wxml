@@ -1,0 +1,6 @@
+<view class="card">
+<view class="title">{{card.title}}</view>
+<view class="card-items">
+  <card-item wx:for="{{card.items}}" wx:key="*this">{{item}}</card-item>
+</view>
+</view>

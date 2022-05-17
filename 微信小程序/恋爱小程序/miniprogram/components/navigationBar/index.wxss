@@ -1,0 +1,33 @@
+.navigation-container {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  top: 0;
+  left: 0;
+}
+.navigation-bar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navigation-buttons {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: transparent;
+}
+.navigation-title {
+  position: absolute;
+  left: 104px;
+  right: 104px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

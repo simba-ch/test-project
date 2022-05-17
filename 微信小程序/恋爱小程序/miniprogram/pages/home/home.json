@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "navigation-bar":"/components/navigationBar",
+    "guide":"/components/guide",
+    "search":"/components/search",
+    "home-swiper":"./components/homeSwiper",
+    "other-item":"./components/otherItem",
+    "notice":"./components/notice",
+    "hot-word":"./components/hotWord",
+    "side":"/components/side"
+  }
+}

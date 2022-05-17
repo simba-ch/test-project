@@ -1,0 +1,8 @@
+<view class="task-item">
+<task-icon type="{{item.type}}"></task-icon>
+<view class="content">
+  <view class="title">{{item.title}}</view>
+  <view class="text">{{item.text}}</view>
+</view>
+<view class="complete-btn">去完成</view>
+</view>
